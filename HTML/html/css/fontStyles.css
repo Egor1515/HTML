@@ -1,0 +1,19 @@
+p {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: large;
+    color: rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+    background: black;
+    letter-spacing: 1px;
+    line-height: 120%;
+    text-align: justify;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-transform: capitalize;
+    text-indent: 15%;
+    word-spacing: 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+}

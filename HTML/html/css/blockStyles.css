@@ -1,0 +1,48 @@
+*{
+    margin: 0; /*на всем сайте нет ВНЕШНИХ отступов*/
+    padding: 0;
+}
+
+#block {
+    width: 200px;
+    height: 200px; /* то же самое что и проценты */
+    background-color: #333;
+    border: 20px outset /*dashed dotted solid inset*/ pink;
+    /*border-bottom: 5px dashed green;*/
+    /*border-top: 10px dotted red;*/
+    /*border-top-color: red;*/
+    /*border-radius: 100%;*/
+    /*border-top-left-radius: 10px;*/
+    /*border-radius: 10px 150px;*/
+    /*border-radius: 10px 150px 150px ;*/
+    border-radius: 10px 20px 140px 150px;
+    opacity: .9; /*прозрачность, "0" можно не писать если меньше 1*/
+    margin: 20px; /*Внешние отступы, отступы объекта от страницы сайта можно 4 параметра*/
+    padding: 100px ;/*Отступ внутренних отступов, например если есть текст, то его положение сильно меняется от краев   */
+}
+.block{
+    /*  overflow: auto; Пмогает скролить текст, если тот вылазит за границы*/
+    /* overflow: hidden;Пряче выпирающий текст*/
+    /* overflow: visible;Наоборот показывает весь текст, а не прячет*/
+    /* overflow-x: все то же самое для оси горизонта*/
+    /* overflow-y: все то же самое для оси вертикали*/
+    overflow: scroll;/*всегда делает инструментр скрола на экране даже если текст не вылазит*/
+    display: none;
+}
+
+textarea{
+    width: 200px;
+    max-width: 400px;                       /*создает область граничную */
+    height: 200px;
+    max-height: 400px;
+}
+#image-full-page{
+    width: 100%;
+    height: 200px;
+    /*background-color: #333333;*/
+    margin-top: 50px;
+    background-image:url("../img/1920x1080_1657539713735.jpeg");
+    background-position: left bottom;
+    background-repeat: repeat-y;
+    background-size: 200px;
+}
